@@ -1,17 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Brain, Zap, Target } from "lucide-react";
 import heroBrain from "@/assets/hero-brain.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroBrain} 
-          alt="Neural network visualization" 
-          className="w-full h-full object-cover opacity-20"
-        />
+        <img src={heroBrain} alt="Neural network visualization" className="w-full h-full object-cover opacity-20" />
         <div className="absolute inset-0 bg-gradient-hero opacity-90" />
       </div>
 
@@ -33,10 +27,7 @@ const Hero = () => {
           </h1>
 
           {/* Description */}
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            AI-powered study planner built on Andrew Huberman's protocols. Optimize focus, retention, 
-            and memory consolidation with proven neuroscience techniques.
-          </p>
+          <p className="text-xl max-w-3xl mx-auto leading-relaxed md:text-3xl text-center font-serif text-popover-foreground">Hugo is the AI-powered study planner built on scientific protocols. Optimise your focus, retention, and memory consolidation with proven neuroscience techniques.</p>
 
           {/* Features Grid */}
           <div className="grid md:grid-cols-3 gap-6 mt-12 max-w-3xl mx-auto">
@@ -90,8 +81,6 @@ const Hero = () => {
       {/* Decorative Elements */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-pulse-glow" />
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-pulse-glow" />
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
