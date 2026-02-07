@@ -21,9 +21,9 @@ const Hero = () => {
           {/* Heading */}
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
             Master Learning with
-            <span className="block mt-2 bg-gradient-accent bg-clip-text text-transparent">
-              Neuroplasticity Science
-            </span>
+            <span className="block mt-2 bg-gradient-accent bg-clip-text text-transparent">Hugo is the AI-powered study planner you customise for your learning goals, built on scientific protocols. 
+Optimise your focus, retention, and memory consolidation with proven neuroscience techniques.
+          </span>
           </h1>
 
           {/* Description */}
