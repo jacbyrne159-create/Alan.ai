@@ -15,7 +15,7 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 backdrop-blur-sm">
             <Zap className="w-4 h-4 text-accent" />
-            <span className="text-sm font-medium text-accent">Science-Based Learning Protocol</span>
+            <span className="font-medium text-accent text-3xl">Science-Based Learning Protocol</span>
           </div>
 
           {/* Heading */}
