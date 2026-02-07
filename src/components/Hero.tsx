@@ -15,19 +15,22 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 backdrop-blur-sm">
             <Zap className="w-4 h-4 text-accent" />
-            <span className="font-medium text-accent text-3xl">Science-Based Learning Protocol</span>
+            <span className="font-medium text-accent text-4xl">Science-Based Learning Protocol</span>
           </div>
 
           {/* Heading */}
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
             Master Learning with
-            <span className="block mt-2 bg-gradient-accent bg-clip-text text-transparent">Hugo is the AI-powered study planner you customise for your learning goals, built on scientific protocols. 
-Optimise your focus, retention, and memory consolidation with proven neuroscience techniques.
-          </span>
+            <span className="block mt-2 bg-gradient-accent bg-clip-text text-transparent">
+              Neuroplasticity Science
+            </span>
           </h1>
 
           {/* Description */}
-          <p className="text-xl max-w-3xl mx-auto leading-relaxed md:text-3xl text-center font-serif text-popover-foreground bg-primary-foreground px-px py-px font-semibold">Hugo is the AI-powered study planner built on scientific protocols. Optimise your focus, retention, and memory consolidation with proven neuroscience techniques.</p>
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            AI-powered study planner built on Andrew Huberman's protocols. Optimize focus, retention, 
+            and memory consolidation with proven neuroscience techniques.
+          </p>
 
           {/* Features Grid */}
           <div className="grid md:grid-cols-3 gap-6 mt-12 max-w-3xl mx-auto">
