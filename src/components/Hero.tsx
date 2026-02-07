@@ -27,7 +27,7 @@ const Hero = () => {
           </h1>
 
           {/* Description */}
-          <p className="text-xl max-w-3xl mx-auto leading-relaxed md:text-3xl text-center font-serif text-popover-foreground">Hugo is the AI-powered study planner built on scientific protocols. Optimise your focus, retention, and memory consolidation with proven neuroscience techniques.</p>
+          <p className="text-xl max-w-3xl mx-auto leading-relaxed md:text-3xl text-center font-serif text-popover-foreground bg-primary-foreground px-px py-px font-semibold">Hugo is the AI-powered study planner built on scientific protocols. Optimise your focus, retention, and memory consolidation with proven neuroscience techniques.</p>
 
           {/* Features Grid */}
           <div className="grid md:grid-cols-3 gap-6 mt-12 max-w-3xl mx-auto">
