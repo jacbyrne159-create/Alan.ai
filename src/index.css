@@ -125,3 +125,49 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+/* Aurora gradient animations for hero */
+@keyframes aurora-drift-1 {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(80px, 30px) scale(1.1);
+  }
+  50% {
+    transform: translate(-40px, 60px) scale(0.95);
+  }
+  75% {
+    transform: translate(60px, -20px) scale(1.05);
+  }
+}
+
+@keyframes aurora-drift-2 {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(-70px, 40px) scale(1.08);
+  }
+  66% {
+    transform: translate(50px, -30px) scale(0.92);
+  }
+}
+
+@keyframes aurora-drift-3 {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  20% {
+    transform: translate(60px, -40px) scale(1.12);
+  }
+  40% {
+    transform: translate(-30px, 50px) scale(0.9);
+  }
+  60% {
+    transform: translate(40px, 20px) scale(1.05);
+  }
+  80% {
+    transform: translate(-50px, -30px) scale(0.95);
+  }
+}
