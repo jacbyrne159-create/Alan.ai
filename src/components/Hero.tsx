@@ -51,10 +51,7 @@ const Hero = () => {
           </h1>
 
           {/* Description */}
-          <p className="text-xl md:text-2xl text-white/60 max-w-3xl mx-auto leading-relaxed">
-            AI-powered study planner built on Andrew Huberman's protocols. Optimize focus, retention,
-            and memory consolidation with proven neuroscience techniques.
-          </p>
+          <p className="text-xl md:text-2xl text-white/60 max-w-3xl mx-auto leading-relaxed">Studying shouldn't feel like a chore, that's why we built Fionn, your AI-powered personal assistant for all things pedagogical</p>
 
           {/* Features Grid */}
           <div className="grid md:grid-cols-3 gap-6 mt-12 max-w-3xl mx-auto">
