@@ -1,51 +1,37 @@
 import { Button } from "@/components/ui/button";
 import { Brain, Zap, Target } from "lucide-react";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[hsl(230,25%,8%)]">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[hsl(230,25%,8%)]">
       {/* Animated Aurora Gradient Background */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         {/* Blob 1 - Purple/Blue */}
-        <div
-          className="absolute w-[800px] h-[600px] rounded-full opacity-60 blur-[120px]"
-          style={{
-            background: "radial-gradient(circle, hsl(270 80% 50% / 0.8), hsl(237 68% 35% / 0.4), transparent 70%)",
-            top: "-10%",
-            left: "10%",
-            animation: "aurora-drift-1 12s ease-in-out infinite",
-          }}
-        />
+        <div className="absolute w-[800px] h-[600px] rounded-full opacity-60 blur-[120px]" style={{
+        background: "radial-gradient(circle, hsl(270 80% 50% / 0.8), hsl(237 68% 35% / 0.4), transparent 70%)",
+        top: "-10%",
+        left: "10%",
+        animation: "aurora-drift-1 12s ease-in-out infinite"
+      }} />
         {/* Blob 2 - Pink/Magenta */}
-        <div
-          className="absolute w-[700px] h-[500px] rounded-full opacity-50 blur-[100px]"
-          style={{
-            background: "radial-gradient(circle, hsl(310 70% 55% / 0.8), hsl(330 60% 45% / 0.3), transparent 70%)",
-            top: "5%",
-            right: "5%",
-            animation: "aurora-drift-2 15s ease-in-out infinite",
-          }}
-        />
+        <div className="absolute w-[700px] h-[500px] rounded-full opacity-50 blur-[100px]" style={{
+        background: "radial-gradient(circle, hsl(310 70% 55% / 0.8), hsl(330 60% 45% / 0.3), transparent 70%)",
+        top: "5%",
+        right: "5%",
+        animation: "aurora-drift-2 15s ease-in-out infinite"
+      }} />
         {/* Blob 3 - Cyan/Teal */}
-        <div
-          className="absolute w-[600px] h-[500px] rounded-full opacity-40 blur-[100px]"
-          style={{
-            background: "radial-gradient(circle, hsl(186 75% 50% / 0.7), hsl(200 60% 40% / 0.3), transparent 70%)",
-            top: "-5%",
-            left: "40%",
-            animation: "aurora-drift-3 10s ease-in-out infinite",
-          }}
-        />
+        <div className="absolute w-[600px] h-[500px] rounded-full opacity-40 blur-[100px]" style={{
+        background: "radial-gradient(circle, hsl(186 75% 50% / 0.7), hsl(200 60% 40% / 0.3), transparent 70%)",
+        top: "-5%",
+        left: "40%",
+        animation: "aurora-drift-3 10s ease-in-out infinite"
+      }} />
         {/* Blob 4 - Soft warm accent */}
-        <div
-          className="absolute w-[500px] h-[400px] rounded-full opacity-30 blur-[120px]"
-          style={{
-            background: "radial-gradient(circle, hsl(280 60% 60% / 0.6), hsl(320 50% 50% / 0.2), transparent 70%)",
-            bottom: "20%",
-            left: "20%",
-            animation: "aurora-drift-2 18s ease-in-out infinite reverse",
-          }}
-        />
+        <div className="absolute w-[500px] h-[400px] rounded-full opacity-30 blur-[120px]" style={{
+        background: "radial-gradient(circle, hsl(280 60% 60% / 0.6), hsl(320 50% 50% / 0.2), transparent 70%)",
+        bottom: "20%",
+        left: "20%",
+        animation: "aurora-drift-2 18s ease-in-out infinite reverse"
+      }} />
         {/* Dark overlay to ground the bottom */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[hsl(230,25%,8%)]" />
       </div>
@@ -54,10 +40,7 @@ const Hero = () => {
       <div className="container relative z-10 px-4 py-20">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm">
-            <Zap className="w-4 h-4 text-accent" />
-            <span className="font-medium text-accent text-sm">Science-Based Learning Protocol</span>
-          </div>
+          
 
           {/* Heading */}
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white">
@@ -121,8 +104,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
