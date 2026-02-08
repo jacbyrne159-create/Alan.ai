@@ -37,13 +37,13 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="container relative z-10 px-4 pt-32 pb-20">
+      <div className="container relative z-10 px-4 py-20">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
           {/* Badge */}
           
 
           {/* Heading */}
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white">Take Control of Learning with
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white">Take Control of Learning with 
 Neuroplasticity Science
           <span className="block mt-2 bg-gradient-to-r from-[hsl(270,80%,65%)] via-[hsl(310,70%,60%)] to-[hsl(186,75%,55%)] bg-clip-text text-transparent">
               Neuroplasticity Science
