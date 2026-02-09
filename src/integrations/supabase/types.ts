@@ -14,6 +14,62 @@ export type Database = {
   }
   public: {
     Tables: {
+      flashcard_sets: {
+        Row: {
+          created_at: string
+          id: string
+          source_filename: string | null
+          title: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          source_filename?: string | null
+          title: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          source_filename?: string | null
+          title?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      flashcards: {
+        Row: {
+          definition: string
+          id: string
+          set_id: string
+          sort_order: number
+          term: string
+        }
+        Insert: {
+          definition: string
+          id?: string
+          set_id: string
+          sort_order?: number
+          term: string
+        }
+        Update: {
+          definition?: string
+          id?: string
+          set_id?: string
+          sort_order?: number
+          term?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "flashcards_set_id_fkey"
+            columns: ["set_id"]
+            isOneToOne: false
+            referencedRelation: "flashcard_sets"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       profiles: {
         Row: {
           avatar_url: string | null
