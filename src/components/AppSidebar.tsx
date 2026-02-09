@@ -40,7 +40,7 @@ const AppSidebar = () => {
       <SidebarHeader className="p-4">
         <Link to="/" className="flex items-center gap-2">
           <Brain className="w-7 h-7 text-primary" />
-          <span className="font-bold text-lg text-foreground">Fionn.ai</span>
+          <span className="font-bold text-lg text-foreground">Alan.ai</span>
         </Link>
       </SidebarHeader>
       <SidebarContent>
