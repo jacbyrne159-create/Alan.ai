@@ -10,7 +10,6 @@ import Auth from "./pages/Auth";
 import StudyPlan from "./pages/StudyPlan";
 import GameCenter from "./pages/GameCenter";
 import Discussions from "./pages/Discussions";
-import Lessons from "./pages/Lessons";
 import Flashcards from "./pages/Flashcards";
 import Practice from "./pages/Practice";
 import MockExams from "./pages/MockExams";
@@ -32,7 +31,6 @@ const App = () => (
               <Route path="/study-plan" element={<StudyPlan />} />
               <Route path="/games" element={<GameCenter />} />
               <Route path="/discussions" element={<Discussions />} />
-              <Route path="/lessons" element={<Lessons />} />
               <Route path="/flashcards" element={<Flashcards />} />
               <Route path="/practice" element={<Practice />} />
               <Route path="/mock-exams" element={<MockExams />} />
