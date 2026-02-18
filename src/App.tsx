@@ -14,6 +14,7 @@ import Flashcards from "./pages/Flashcards";
 import Practice from "./pages/Practice";
 import MockExams from "./pages/MockExams";
 import NotFound from "./pages/NotFound";
+import CalendarPage from "./pages/Calendar";
 
 const queryClient = new QueryClient();
 
@@ -34,6 +35,7 @@ const App = () => (
               <Route path="/flashcards" element={<Flashcards />} />
               <Route path="/practice" element={<Practice />} />
               <Route path="/mock-exams" element={<MockExams />} />
+              <Route path="/calendar" element={<CalendarPage />} />
             </Route>
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
