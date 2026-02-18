@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Home, CalendarDays, Gamepad2, MessageSquare, BookOpen, Layers, ClipboardList, FileText, Search, Brain } from "lucide-react";
+import { Home, CalendarDays, Gamepad2, MessageSquare, Layers, ClipboardList, FileText, Brain } from "lucide-react";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarHeader, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from "@/components/ui/sidebar";
 const navItems = [{
   title: "Home",
@@ -17,10 +17,6 @@ const navItems = [{
   title: "Discussions",
   icon: MessageSquare,
   path: "/discussions"
-}, {
-  title: "Lessons",
-  icon: BookOpen,
-  path: "/lessons"
 }, {
   title: "Flashcards",
   icon: Layers,

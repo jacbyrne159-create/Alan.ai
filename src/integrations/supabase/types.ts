@@ -14,6 +14,33 @@ export type Database = {
   }
   public: {
     Tables: {
+      calendar_connections: {
+        Row: {
+          connection_type: string
+          created_at: string
+          display_name: string
+          ical_url: string | null
+          id: string
+          user_id: string
+        }
+        Insert: {
+          connection_type: string
+          created_at?: string
+          display_name?: string
+          ical_url?: string | null
+          id?: string
+          user_id: string
+        }
+        Update: {
+          connection_type?: string
+          created_at?: string
+          display_name?: string
+          ical_url?: string | null
+          id?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
       flashcard_sets: {
         Row: {
           created_at: string
@@ -97,6 +124,69 @@ export type Database = {
           university?: string | null
           updated_at?: string
           user_id?: string
+        }
+        Relationships: []
+      }
+      study_blocks: {
+        Row: {
+          block_date: string
+          block_type: string
+          completed: boolean
+          created_at: string
+          id: string
+          start_time: string
+          subject: string | null
+          title: string
+          user_id: string
+        }
+        Insert: {
+          block_date: string
+          block_type?: string
+          completed?: boolean
+          created_at?: string
+          id?: string
+          start_time: string
+          subject?: string | null
+          title: string
+          user_id: string
+        }
+        Update: {
+          block_date?: string
+          block_type?: string
+          completed?: boolean
+          created_at?: string
+          id?: string
+          start_time?: string
+          subject?: string | null
+          title?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      study_targets: {
+        Row: {
+          created_at: string
+          id: string
+          session_duration_minutes: number
+          updated_at: string
+          user_id: string
+          weekly_deep_work_sessions: number
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          session_duration_minutes?: number
+          updated_at?: string
+          user_id: string
+          weekly_deep_work_sessions?: number
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          session_duration_minutes?: number
+          updated_at?: string
+          user_id?: string
+          weekly_deep_work_sessions?: number
         }
         Relationships: []
       }
