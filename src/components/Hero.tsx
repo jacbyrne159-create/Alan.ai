@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Brain, Zap, Target } from "lucide-react";
+import { Upload, CalendarSync, BellRing } from "lucide-react";
 const Hero = () => {
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[hsl(230,25%,8%)]">
       {/* Animated Aurora Gradient Background */}
@@ -56,21 +56,21 @@ const Hero = () => {
           {/* Features Grid */}
           <div className="grid md:grid-cols-3 gap-6 mt-12 max-w-3xl mx-auto">
             <div className="p-6 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10">
-              <Brain className="w-8 h-8 text-[hsl(270,80%,65%)] mb-3 mx-auto" />
-              <h3 className="font-semibold mb-2 text-white">90-Min Focus Blocks</h3>
-              <p className="text-sm text-white/50">Optimized study sessions with gap effects for 10-20% faster learning</p>
+              <Upload className="w-8 h-8 text-[hsl(270,80%,65%)] mb-3 mx-auto" />
+              <h3 className="font-semibold mb-2 text-white">Custom Flashcards & Games</h3>
+              <p className="text-sm text-white/50">Upload slides, textbooks, or notes to generate flashcards and social study games with classmates</p>
             </div>
 
             <div className="p-6 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10">
-              <Target className="w-8 h-8 text-[hsl(310,70%,60%)] mb-3 mx-auto" />
-              <h3 className="font-semibold mb-2 text-white">Active Recall Testing</h3>
-              <p className="text-sm text-white/50">Reduce forgetting by 50% with evidence-based retrieval practice</p>
+              <CalendarSync className="w-8 h-8 text-[hsl(310,70%,60%)] mb-3 mx-auto" />
+              <h3 className="font-semibold mb-2 text-white">Plan & Track Sessions</h3>
+              <p className="text-sm text-white/50">Schedule study blocks, track deep work sessions, and sync with Google Calendar or iCal</p>
             </div>
 
             <div className="p-6 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10">
-              <Zap className="w-8 h-8 text-accent mb-3 mx-auto" />
-              <h3 className="font-semibold mb-2 text-white">NSDR Consolidation</h3>
-              <p className="text-sm text-white/50">Accelerate memory formation with guided rest protocols</p>
+              <BellRing className="w-8 h-8 text-[hsl(186,75%,55%)] mb-3 mx-auto" />
+              <h3 className="font-semibold mb-2 text-white">Spaced Repetition Reminders</h3>
+              <p className="text-sm text-white/50">Set smart reminders for active recall sessions to retain information long-term</p>
             </div>
           </div>
 
