@@ -41,6 +41,42 @@ export type Database = {
         }
         Relationships: []
       }
+      calendar_events: {
+        Row: {
+          all_day: boolean
+          connection_id: string | null
+          created_at: string | null
+          end_at: string | null
+          id: string
+          location: string | null
+          start_at: string
+          title: string
+          user_id: string
+        }
+        Insert: {
+          all_day?: boolean
+          connection_id?: string | null
+          created_at?: string | null
+          end_at?: string | null
+          id?: string
+          location?: string | null
+          start_at: string
+          title: string
+          user_id: string
+        }
+        Update: {
+          all_day?: boolean
+          connection_id?: string | null
+          created_at?: string | null
+          end_at?: string | null
+          id?: string
+          location?: string | null
+          start_at?: string
+          title?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
       flashcard_sets: {
         Row: {
           created_at: string

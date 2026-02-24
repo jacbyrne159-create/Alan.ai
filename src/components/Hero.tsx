@@ -43,11 +43,10 @@ const Hero = () => {
           
 
           {/* Heading */}
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white">Take Control of Learning with  
-
-
-          <span className="block mt-2 bg-gradient-to-r from-[hsl(270,80%,65%)] via-[hsl(310,70%,60%)] to-[hsl(186,75%,55%)] bg-clip-text text-transparent">
-              Neuroplasticity Science
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white">
+            Take Control of Your Learning with the Help of 
+            <span className="block mt-2 bg-gradient-to-r from-[hsl(270,80%,65%)] via-[hsl(310,70%,60%)] to-[hsl(186,75%,55%)] bg-clip-text text-transparent">
+              Alan
             </span>
           </h1>
 
