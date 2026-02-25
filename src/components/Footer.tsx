@@ -39,8 +39,8 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-white/30">
-            © 2025 Alan.ai. Built with science-backed learning protocols.
+          <p className="text-sm text-white/30">© 2026 Alan.ai. Built with science-backed learning protocols.
+
           </p>
           <div className="flex gap-6 text-sm text-white/30">
             <a href="#" className="hover:text-white/60 transition-colors">Privacy</a>
@@ -49,8 +49,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;
